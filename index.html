@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/free-icon-form-7772008.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Форма обратной связи</title>
+</head>
+<body class="bd">
+    <div class="conteiner">
+        <div class="left_conteiner">
+            <div class="text">
+            <h1>Свяжитесь с нашей командой</h1>
+            <p>Опишите вопрос как можно подробнее. Это поможет быстрее подобрать специалиста и подготовить ответ</p>
+            </div>
+            <form action="https://postman-echo.com/post" class="main">
+                <label for="name">Имя
+                    <input type="text" name="name" id="name" class="input_pole">
+                </label>
+                <label for="Email">E-mail
+                    <input type="email" name="email" id="Email" class="input_pole">
+                </label>
+                <label for="Problem">Тема обращения
+                    <select name="problem" id="Problem" class="input_pole">
+                        <option value="" selected>Техническая проблема</option>
+                        <option value="">Внутреняя проблема</option>
+                        <option value="">Что-то еще</option>
+                        <option value="">Другое</option>
+                    </select>
+                </label>
+                <label for="number">Номер заказа
+                    <input type="number" name="number" id="number" class="input_pole">
+                </label>
+                <label for="message">Сообщение
+                    <textarea name="message" id="message" placeholder="Опишите вашу проблему" class="bottom"></textarea>
+                </label>
+            </form>
+            <div class="middle">
+                <label for="checkbox">
+                    <input type="checkbox" id="checkbox" class="box"> Я принимаю условия использования сервиса и политику обработки персональных данных.
+                </label>
+            </div>
+                <button type="submit" class="btn">Отправить</button>
+        </div>
+        <div class="right_conteiner">
+            <div class="contact">
+                <h1>Контакты поддержки</h1>
+                <div class="text_right">
+                    <p class="tx">E-mail</p>
+                    <p>support@orbit.app</p>
+                    <p class="tx">Телефон</p>
+                    <p>+7 (800) 555‑18‑25</p>
+                    <p class="tx">Время работы</p>
+                    <p class="tx2">09:00 — 21:00 ежедневно</p>
+                </div>
+            </div>
+            <div class="inner">
+                <h1>Что дальше?</h1>
+                <div class="inlane">
+                    <div class="item">
+                        <p class="dight">1</p>
+                        <p>Заявка попадает в очередь поддержки.</p>
+                    </div>
+                    <div class="item">
+                        <p class="dight">2</p>
+                        <p>Мы анализируем обращение и уточняем детали при необходимости.</p>
+                    </div>
+                    <div class="item">
+                        <p class="dight">3</p>
+                        <p>Ответ приходит на указанную электронную почту.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
