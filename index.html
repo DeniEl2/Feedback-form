@@ -17,7 +17,7 @@
             <h1>Свяжитесь с нашей командой</h1>
             <p>Опишите вопрос как можно подробнее. Это поможет быстрее подобрать специалиста и подготовить ответ</p>
             </div>
-            <form action="https://postman-echo.com/post" class="main">
+            <form action="https://postman-echo.com/post" class="main" method="post">
                 <label for="name">Имя
                     <input type="text" name="name" id="name" class="input_pole">
                 </label>
@@ -41,10 +41,10 @@
             </form>
             <div class="middle">
                 <label for="checkbox">
-                    <input type="checkbox" id="checkbox" class="box"> Я принимаю условия использования сервиса и политику обработки персональных данных.
+                    <input type="checkbox" id="checkbox" class="box" name="checkbox"> Я принимаю условия использования сервиса и политику обработки персональных данных.
                 </label>
             </div>
-                <button type="submit" class="btn">Отправить</button>
+                <button type="submit" class="btn" name="button">Отправить</button>
         </div>
         <div class="right_conteiner">
             <div class="contact">
